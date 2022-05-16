@@ -1,8 +1,7 @@
-package com.abc.repositories;
+package com.abc.Repository;
 
 import com.abc.models.Customer;
 import com.abc.models.Item;
-import com.abc.models.OrderHistory;
 import com.abc.models.OrderModel;
 import org.springframework.stereotype.Repository;
 

@@ -1,14 +1,11 @@
 package com.abc.services.implementation;
 
-import com.abc.models.Customer;
-import com.abc.models.Item;
 import com.abc.models.OrderModel;
-import com.abc.repositories.OrderRepository;
+import com.abc.Repository.OrderRepository;
 import com.abc.services.interfaces.IOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
