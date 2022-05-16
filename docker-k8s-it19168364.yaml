@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docker-k8s-it19168364-deployment
+  labels:
+    app: docker-k8s-it19168364
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: docker-k8s-it19168364
+  template:
+    metadata:
+      labels:
+        app: docker-k8s-it19168364
+    spec:
+      containers:
+      - name: docker-k8s-it19168364
+        image: dockerdana800433/it19168364
+        ports:
+        - containerPort: 8082
