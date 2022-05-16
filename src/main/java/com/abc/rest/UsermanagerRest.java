@@ -23,7 +23,6 @@ public class UsermanagerRest {
         return userManagerService.findAllUsers();
     }
 
-
     @GetMapping("/users/id/{userId}")
     public User getUserById(@PathVariable String userId){
         return userManagerService.findUserById(userId);
