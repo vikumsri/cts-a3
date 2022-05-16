@@ -38,6 +38,7 @@ public class UsermanagerRest {
         return userManagerService.updateUser(user);
     }
 
+
     @DeleteMapping("/users/delete/{userId}")
     public boolean deleteUser(@PathVariable String userId){
         return userManagerService.deleteUser(userId);
