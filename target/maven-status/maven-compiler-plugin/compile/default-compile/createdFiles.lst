@@ -1,0 +1,6 @@
+com\abc\AbcCompanyApplication.class
+com\abc\model\User.class
+com\abc\service\UserManagerService.class
+com\abc\rest\UsermanagerRest.class
+com\abc\service\UserManagerServiceImpl.class
+com\abc\repository\UserRepository.class
